@@ -2,9 +2,7 @@
 
 ## 推奨品
 - エッジ側PC，マイコン
-  - M5Stack Gray
-  - M5stickV
-  - Jetson nano
+ - Jetson nano
     - GPUを積んでいるので，画像処理とかもある程度はOK.CPUのアーキテクチャが違うので，そこでつまずくときもあるがUbuntu1804が入っているので，使いやすい．
     - http://akizukidenshi.com/catalog/g/gM-15021/
   - Arduino
@@ -17,9 +15,12 @@
     - Arduinoとラズパイの中間の位置づけ．無線機能をもっているので使いやすい．Arduinoのフレームワークが使える．
     - http://akizukidenshi.com/catalog/g/gM-11819/
   - microSD（32GB）
+  - M5Stack Gray
+  - M5stickV
+ 
 - 測定関係
   - テスタ
-    - ポケッチサイズ持ち運びしやすい．
+    - ポケットサイズ持ち運びしやすい．
     - https://www.amazon.co.jp/exec/obidos/ASIN/B000JQHB6G/
   - Analog Discovery 2
     - オシロ，ロジアナなど全部入りで非常に多機能で使いやすい．しかも安い．
