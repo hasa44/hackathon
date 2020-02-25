@@ -5,6 +5,8 @@
  - Jetson nano
     - GPUを積んでいるので，画像処理とかもある程度はOK.CPUのアーキテクチャが違うので，そこでつまずくときもあるがUbuntu1804が入っているので，使いやすい．
     - http://akizukidenshi.com/catalog/g/gM-15021/
+    - ラズパイと違い無線機能がないので，下記を参考に，周辺機器を揃えたほうが良い．
+      - https://karaage.hatenadiary.jp/entry/2019/08/19/073000
   - Arduino
     - 割高だが，Web上の情報も多いので最も扱いやすいかも．
     - https://www.switch-science.com/catalog/789/
@@ -16,7 +18,9 @@
     - http://akizukidenshi.com/catalog/g/gM-11819/
   - microSD（32GB）
   - M5Stack Gray
+    - ESP32が内蔵．液晶，加速度センサがついていて，これだけで色々できる．
   - M5stickV
+    - M5stackが小さくなったもの．Vはカメラが付いている．
  
 - 測定関係
   - テスタ
@@ -40,13 +44,14 @@
     - モバイルモニター モバイルディスプレイ 15.6インチ Lepow
     - https://www.amazon.co.jp/dp/B07Y8966BX/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B07Y8966BX&pd_rd_w=CrGxV&pf_rd_p=aadbaebd-99fa-42cf-90e0-095e5b21f501&pd_rd_wg=reQxn&pf_rd_r=HRNNYTS6HB8MH3TFN6BJ&pd_rd_r=fdb72857-cd7c-4c0b-9e80-8a1ae6895bba&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWTdUOTZaRkFLME83JmVuY3J5cHRlZElkPUEwNTkwODUyMkZMNzhYTFQzNlVEQSZlbmNyeXB0ZWRBZElkPUEyTVVNNkgwSE42U1FGJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
 - センサー関係
-  - サーボモーター
-  - ステッピングモータ
-  - モータドライバ
-  - 温湿度
-  - 加速センサ
-  - ラズパイカメラ2
-  - 距離センサー
+  - 下記のセンサーは必要に応じて．センサーはWebにライブラリがあるものを優先的に選ぶ．
+    - サーボモーター
+    - ステッピングモータ
+    - モータドライバ
+    - 温湿度
+    - 加速センサ
+    - ラズパイカメラ2
+    - 距離センサー
 - 電子工作
   - FTDI USBシリアル変換アダプター
   - https://www.switch-science.com/catalog/1032/
@@ -66,14 +71,20 @@
   - ケーブル
   - 半田ゴテ
     - FX952-51
+    - 価格が高いので，安いものでもOK．持ち手が細いほうが扱いやすい．コテは熱容量あったほうが作業しやすい．
     - https://item.rakuten.co.jp/akibaoo-r/hm000093835/?gclid=CjwKCAiAhc7yBRAdEiwAplGxX1od3yiNsJVZntwyQIsZketcTtP5Q3TJPZeH6Wc4o0mzXnsFDZyf5xoCraEQAvD_BwE&scid=af_pc_etc&sc2id=af_113_0_10001868
   - めっき線
   - 半田
+    - 太さ違いを3種類くらい揃えておく．鉛フリー．
   - 信号線
+    - 赤，黒の電源線の外，いろいろな色を揃えておくと良い．
   - ピンヘッダ
     - ピンヘッダピンソケット詰め合わせパック
     - https://www.switch-science.com/catalog/1219/
+  - 半田吸い取り線
 - 工具
+  - ピンセット
+    - 先が細いもの．
   - カッター
   - 養生テープ
   - ドライバー関係
@@ -83,3 +94,10 @@
   - 卓上マット
     - エンジニア 卓上導電マット A3サイズ 
     - https://www.amazon.co.jp/exec/obidos/ASIN/B002L6HJ9Q/fumimaker-22/
+  - 電動ドライバー
+    - 穴あけなど，簡単な工作ができる．ハンドル下に電池を取り外しできるタイプが便利．
+    - https://www.amazon.co.jp/%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF-%E3%83%89%E3%83%AA%E3%83%AB%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC-%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-18V%E9%AB%98%E5%AE%B9%E9%87%8F5-0Ah%E9%9B%BB%E6%B1%A0%E3%83%91%E3%83%83%E3%82%AF%E3%82%BB%E3%83%83%E3%83%88-EZ74A3LJ2G-R/dp/B07VPFWG2Q/ref=redir_mobile_desktop?ie=UTF8&aaxitk=DdWCa4WrEt4Aee7Wez9NmQ&hsa_cr_id=1034509120903&ref_=sb_s_sparkle
+
+- 収納関係
+  - テプラ
+    - 基板，部品などにラベリングできると整理しやすい．
